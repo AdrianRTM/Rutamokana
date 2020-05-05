@@ -1,0 +1,18 @@
+<? php
+	$destinatario = ´rutamokana@gmail.com´;
+	$nombre = $_POST[´Nombre´];
+	$correo = $_POST[´combre´];
+	$asunto = $_POST[´asunto´];
+	$mensaje = $_POST[´mensaje´];
+
+
+	$header = "Enviado desde la pagina ruta mokana";
+	$mensajecompleto = $mensaje. "\nAtentamente: " .$nombre;
+
+	mail($destinatario, $asunto, $mensajecompleto, $header);
+	echo "<script>alert(´correo enviado exitosamente´)</script>";
+	echo "<script> setTimeout(\"location.href=´index.html´\",1000)</script>";
+
+
+
+?>

@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Contacto| Ruta mokana</title>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+        <link rel="stylesheet" href="css/fontello.css" >
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="container ">
+				<h1 class="icon-road , main_title"><a class="title_p" href="index.html">Ruta mokana</a></h1>
+                <input type="checkbox" id="menu-bar">
+                <label class="icon-menu" for="menu-bar"></label>
+                <nav class="menu">
+                    <a href="index.html" >Inicio</a>
+                    <a href="">Ruta</a>
+                    <a href="galeria.html" >Galeria</a>
+                    <a href="contact.html" id="select_ite">Contactenos</a>
+                </nav>
+			</div>
+        </header>
+        
+        <main>
+           <section id="banner">
+               <div class="banner">
+			     <ul>
+				            <li><img src="img/Banner/Banner1.jpeg" alt="" class="banner__img"></li>
+				            <li><img src="img/Banner/Banner2.jpeg" alt="" class="banner__img"></li>
+				            <li><img src="img/Banner/Banner3.jpg" alt="" class="banner__img"></li>
+				            <li><img src="img/Banner/Banner4.jpeg" alt="" class="banner__img"></li>
+			     </ul>
+               </div>
+               <div class="banner__content">
+                   Dejanos un mensaje
+               </div>
+            </section>
+            
+            <section class="group contact">
+                <h2 class="tilc">Contacto</h2>
+                <br>
+                <div class="container container--flex">
+                    <div class="contact-info column column--50">
+                        <h3 class="column__title">Informacion de contacto</h3>
+                        <p class="column_txt"> Utilize este espacio para ponerse en contacto o dejar una opinion/mensaje sobre la ruta mokana </p>
+                        <p class="column_txt"><span class="icon-phone"></span>Telefono: +57-300-412-8769 / +57-317-354-8136 </p>
+                        <p class="column_txt"><span class="icon-location"></span> colombia </p>
+                        <p class="column_txt"><span class="icon-mail"></span>rutamokana@gmail.com</p>
+                        <p class="column_txt"><span class="icon-"></span></p>
+                    </div>
+                    <div class="column column--50">
+                        <form action="correo.php" method = "POST">
+                            <label for="" class="form_la">Nombre:</label>
+                            <input type="text" name="nombre" placeholder="Nombre" required> 
+                            <label for="" class="form_la">Correo:</label>
+                            <input type="text" name="correo" placeholder="Correo" required>
+                            <label for="" class="form_la">Asunto:</label>
+                            <input type="text" name="asunto" placeholder="Asunto" required>
+                            <label for="" class="form_la">Mensaje:</label>
+                            <textarea name="mensaje" placeholder="Escriba aqui su mensaje" cols="30" rows="10"></textarea>
+                            <input type="submit" value="Enviar" id="boton" required>
+                        </form>
+                    </div>
+                </div>
+                
+            </section>
+        </main>
+        
+        <footer class="main-footer">
+			<div class="container container--flex">
+				<div class="column column--33">
+					<h2 class="column__title">Acerca de...</h2>
+                    <br>
+					<p class="column__txt">La ruta mokana es un proyecto que tiene su inicio a mediados del año 2019 y que ha estado en desarrollo vigente 1 año, busca mediante los ODS crear una nueva manera de relacionar culturas y generar bienes para los principales actores </p>
+				</div>
+				<div class="column column--33">
+					<h2 class="column__title"> contactanos</h2>
+                    <br>
+					<p class="column__txt icon-phone"  >300-412-8769 / 317-354-8136</p>
+                    <p class="column__txt"><a href="" class="icon-mail">rutamokana@gmail.com</a></p>
+					<p class="column__txt icon-location">Colombia</p>
+				</div>
+				<div class="column column--33">
+					<h2 class="column__title">siguenos en ..</h2>
+                    <br>
+					<p class="column__txt"><a href="" class="icon-facebook">Proximamente...</a></p>
+					<p class="column__txt"><a href="" class="icon-twitter">Proximamente...</a></p>
+					<p class="column__txt"><a href="" class="icon-instagram">Proximamente...</a></p>
+				</div>
+				<p class="copy"> © Copyright Todos los derechos reservados.  </p>
+			</div>
+	</footer>
+    
+   
+    
+    </body>
+</html>
